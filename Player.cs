@@ -6,18 +6,26 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand_3DayStarter
 {
-    class Player
+    public class Player
     {
-        // member variables (HAS A)
+        //Member Variables (HAS A)
+        public string name;
         public Inventory inventory;
         public Wallet wallet;
+        public Recipe recipe;
+        public Pitcher pitcher;
 
-        // constructor (SPAWNER)
+        //Constructor
         public Player()
         {
-            inventory = new Inventory();
+            name = "Player 1";
             wallet = new Wallet();
+            inventory = new Inventory();
+            recipe = new Recipe();
+            pitcher = new Pitcher();
         }
+
+        
 
         // member methods (CAN DO)
     }
