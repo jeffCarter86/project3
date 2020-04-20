@@ -13,7 +13,7 @@ namespace LemonadeStand_3DayStarter
         // constructor (SPAWNER)
         public Lemon()
         {
-            name = "lemon";
+            name = "Lemon";
         }
 
         // member methods (CAN DO)
