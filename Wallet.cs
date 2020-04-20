@@ -6,26 +6,32 @@ using System.Threading.Tasks;
 
 namespace LemonadeStand_3DayStarter
 {
-    class Wallet
+    public class Wallet
     {
-        private double money;
-
+        //Member Variables (HAS A)
+        double money = 20;
         public double Money
         {
             get
             {
                 return money;
             }
+            set
+            {
+                if (value <= 0)
+                {
+                    money = 0;
+                }
+                else
+                {
+                    money = value;
+                }
+            }
         }
 
-        public Wallet()
-        {
-            money = 20.00;
-        }
+        //Constructor
 
-        public void PayMoneyForItems(double transactionAmount)
-        {
-            money -= transactionAmount;
-        }
+        //Member Methods (CAN DO)
+
     }
 }
