@@ -10,8 +10,8 @@ namespace LemonadeStand_3DayStarter
     {
         public static void DisplayWelcomeMessage()
         {
-            Console.WriteLine("Hello! Welcome to the"); 
-            Console.WriteLine("THE LEMONADE STAND CHALLENGE!!!");
+            
+            Console.WriteLine("THE LEMONADE STAND CHALLENGE!!! press ENTER to continue.....");
            
             Console.ReadLine();
             Console.Clear();
@@ -101,7 +101,7 @@ namespace LemonadeStand_3DayStarter
             } while (playAgain != "y" && playAgain != "n");
             if (playAgain == "y")
             {
-                Console.WriteLine("dO WE REALLY HAVE TOO DO THIS AGAIN?");
+                Console.WriteLine("DO WE REALLY HAVE TOO DO THIS AGAIN?");
                 // Reset game here
                 // CheckCurrentDay();
                 // GameOver();

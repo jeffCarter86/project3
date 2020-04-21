@@ -10,6 +10,13 @@ namespace LemonadeStand_3DayStarter
     {
         static void Main(string[] args)
         {
+            Game game = new Game();
+
+            //testing
+            Weather weather = new Weather();
+
+            weather.SetCondition(1);
+
 
         }
     }
