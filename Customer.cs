@@ -19,5 +19,6 @@ namespace LemonadeStand_3DayStarter
             maxPrice = random.Next(36) / 100.0;           
             chanceToBuy = random.NextDouble();
         }
+
     }
 }
