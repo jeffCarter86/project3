@@ -63,7 +63,7 @@ namespace LemonadeStand_3DayStarter
                                         double moneyCount, int dayCount, string forecast, int bulkQty)
         {
             Console.Clear();
-            Console.WriteLine("Welcome to the Store Day {0}\n=================================================\n", dayCount);
+            Console.WriteLine("Welcome to the Store {0}\n=================================================\n", dayCount);
             Console.WriteLine("You currently have: ${0}", moneyCount);
             DisplayForecast(forecast);
             Console.WriteLine("1. Buy {0} Lemons       ${1}     Lemon Inventory: {2}", bulkQty, lemonPrice, lemonCount);

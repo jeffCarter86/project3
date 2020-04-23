@@ -22,6 +22,9 @@ namespace LemonadeStand_3DayStarter
             GenerateCustomers();
         }
 
+        //Single Responsibility Principle: Each of the below methods perform a single responsibility: 
+        //the first method only determines the number of generated customers based on the input weather condition
+        //the second method will only create a list of customers based on the input from previous method
         public void NumberOfGeneratedCustomers()
         {
                        
